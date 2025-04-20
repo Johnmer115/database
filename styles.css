@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(81, 145, 209, 0.56);
+}
+thead{
+    background-color: rgba(81, 145, 209, 0.56) ;
+}
+.navbar {
+    padding: 10px 15px; /* Increase horizontal padding */
+}
+.navbar .container {
+    max-width: 80%; /* Adjust width */
+}
+.card-custom {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+}
+.user-icon {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+}
+th {
+    background-color: #007bff;
+    color: white;
+}
+.navbar-brand {
+    font-size: 20px; /* Adjust the size as needed */
+}
+h4 {
+    font-size: 40px;
+    padding: 5px 10px 15px 10px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #f8f9fa;
+}
+ .summary-card {
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+  }
+  .summary-header {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+  }
+  .summary-body {
+    padding: 20px;
+    text-align: center;
+  }
+  .summary-number {
+    display: inline-block;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .btn-custom {
+    width: 48%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    flex: 1;
+  }
+  
+  /* Footer styling: gray background, small padding and font */
+  .custom-footer {
+    background-color:rgb(69, 96, 229); /* gray */
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0.8rem;}
